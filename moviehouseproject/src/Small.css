@@ -1,0 +1,18 @@
+/* Small devices (max-width: 576px) */
+@media (max-width: 576px) {
+    .movie-con {
+      width: 300px;
+      margin: auto;
+      display: flex;
+      justify-content: space-evenly;
+    }
+  
+    .button-div  {
+      width: 100px;
+      margin-bottom: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  

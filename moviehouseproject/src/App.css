@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  color: white;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.movie-con {
+  display: flex;
+  margin-top: 30px !important;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  gap: 10px;
+  padding: 12px;
+}
+.iner-box {
+  width: 200px;
+  text-align: center;
+  margin: 10px;
+}
+p {
+  font-size: 13px;
+}
+h6 {
+  margin-top: 15px;
+}
+
+.button-div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 800px;
+  margin: auto;
+}
+.btn {
+  margin-top: 22px;
+}
+
+.hovereffect:hover img {
+  transform: scale(110%);
+  transition: 0.7s ease;
+  cursor: pointer;
+}
+.hovereffect:hover + h6 {
+  position: relative;
+  z-index: 2;
+}
